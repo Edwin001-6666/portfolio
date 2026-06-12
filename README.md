@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Edwin+John;Computer+Science+Student;Cloud+Computing+Enthusiast;Programmer" alt="Typing SVG" />
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="https://github.com/Edwin001-6666"><img src="https://img.shields.io/badge/GitHub-Edwin001--6666-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 🚀 Personal Portfolio
+
+A modern, responsive personal portfolio website built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS 4**. Features a dark-mode design with interactive particle backgrounds, glass-morphism UI, scroll-triggered animations, and full SEO optimization.
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🌑 **Dark Mode** | Premium dark theme with blue & cyan accent colors |
+| 🎆 **Particle Background** | Interactive canvas particles with mouse-reactive connections |
+| 🧭 **Smart Navbar** | Responsive navigation with active section tracking via Intersection Observer |
+| 📱 **Fully Responsive** | Mobile-first design with hamburger menu and adaptive layouts |
+| 🎬 **Scroll Animations** | Fade-in, slide, and float animations triggered on scroll |
+| 🪟 **Glass-morphism** | Frosted glass card effects with gradient borders |
+| 🔍 **SEO Optimized** | Complete meta tags, OpenGraph, and Twitter card support |
+| ⚡ **Vercel Ready** | Zero-config deployment to Vercel |
+
+## 📸 Sections
+
+- **Hero** — Animated intro with name, title, and CTA buttons
+- **About Me** — Decorative code block visual, interests, and quick stats
+- **Skills** — Card grid with icons, descriptions, and progress bars (C, Data Structures, Git, Linux, Cloud, Problem Solving, HTML)
+- **Projects** — Showcase cards with tech stack tags, GitHub links, and "Coming Soon" placeholders
+- **Education** — Timeline-style card for B.E. in Computer Science (Karnataka, India)
+- **Achievements** — Highlights for Active GitHub Developer & Open Source Enthusiast
+- **Contact** — GitHub CTA with glass card design
+- **Footer** — Quick links, branding, and copyright
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **UI Library:** [React 19](https://react.dev/)
+- **Language:** [TypeScript 5](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations:** Custom CSS keyframes + Intersection Observer API
+- **Particles:** HTML5 Canvas with requestAnimationFrame
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── app/
+│   ├── components/
+│   │   ├── ParticleBackground.tsx   # Interactive canvas particle system
+│   │   ├── Navbar.tsx               # Responsive navbar with scroll tracking
+│   │   ├── AnimateOnScroll.tsx      # Scroll-triggered animation wrapper
+│   │   ├── SectionHeading.tsx       # Reusable gradient section headings
+│   │   ├── Hero.tsx                 # Hero section with CTAs
+│   │   ├── About.tsx               # About with code visual & stats
+│   │   ├── Skills.tsx              # Skill cards with progress bars
+│   │   ├── Projects.tsx            # Project cards with GitHub links
+│   │   ├── Education.tsx           # Timeline education card
+│   │   ├── Achievements.tsx        # Achievement highlight cards
+│   │   ├── Contact.tsx             # Contact with GitHub CTA
+│   │   └── Footer.tsx              # Footer with links & copyright
+│   ├── globals.css                 # Theme, animations, utility classes
+│   ├── layout.tsx                  # Root layout with SEO metadata
+│   └── page.tsx                    # Main page composing all sections
+├── public/                         # Static assets
+├── package.json
+├── tsconfig.json
+├── postcss.config.mjs
+└── next.config.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Node.js](https://nodejs.org/) 18+ installed
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repository
+git clone https://github.com/Edwin001-6666/portfolio.git
+cd portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start the development server
+npm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Build for Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```
+
+## 🌐 Deployment
+
+This project is optimized for [Vercel](https://vercel.com/) deployment:
+
+1. Push your code to GitHub
+2. Connect the repository to Vercel
+3. Vercel auto-detects Next.js — no extra configuration needed
+
+Or deploy via CLI:
+
+```bash
+npx vercel
+```
+
+## 📬 Contact
+
+- **GitHub:** [Edwin001-6666](https://github.com/Edwin001-6666)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Built with ❤️ by <strong>Edwin John</strong> using Next.js & Tailwind CSS
+</p>
